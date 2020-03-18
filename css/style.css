@@ -39,5 +39,6 @@ nav ul li a {
 div.landing-section {
     width: auto;
     text-align: center;
-    padding: 400px 500px;
+    padding-top: 350px;
+    padding-bottom: 550px;
 }
