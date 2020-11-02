@@ -2,16 +2,19 @@ body {
     font-family: 'Assistant', san-serif;
     font-size: 24px;
     background-color: #F5F5F5;
-    color: #5A5959
+    color: #5A5959;
+    margin: 0px;
 }
 
 header {
     position: sticky;
     /* height: 50px; */
+    font-size: 18px;
     top: 0px;
     padding-top: 15px;
     padding-bottom: 10px;
     background-color: #F5F5F5;
+    white-space: nowrap;
 }
 
 nav {
@@ -39,6 +42,16 @@ nav ul li a {
 div.landing-section {
     width: auto;
     text-align: center;
-    padding-top: 350px;
+    padding-top: 300px;
     padding-bottom: 550px;
+}
+
+ul.links {
+    display:flex;
+    list-style:none;
+    justify-content: center;
+    padding: 0;
+}
+ul.links li {
+    padding: 10px 10px 0 10px;
 }
