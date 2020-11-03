@@ -43,7 +43,7 @@ div.landing-section {
     width: auto;
     text-align: center;
     padding-top: 300px;
-    padding-bottom: 550px;
+    padding-bottom: 300px;
 }
 
 ul.links {
@@ -54,4 +54,8 @@ ul.links {
 }
 ul.links li {
     padding: 10px 10px 0 10px;
+}
+
+.hidden {
+    display: none;
 }
